@@ -1,9 +1,12 @@
 {
   "name": "react-portfolio",
   "version": "1.0.0",
+  "homepage": "https://enmorse.github.io/react_portfolio_git",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
@@ -31,6 +34,7 @@
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "sass-loader": "^13.2.0",
