@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* BACKGROUND COLORS */
+  --PRIMARY-BG-COLOR: #121212;
+  --SECONDARY-BG-COLOR: #228b22;
+
+  --ALTERNATIVE-BG-COLOR: #222222;
+
+  --CLR-ACCENT: #00800;
+
+  /* COLORS / FONT COLORS */
+  --PRIMARY-FONT-COLOR: #f8f8ff;
+  --SECONDARY-FONT-COLOR: #228b22;
+
+  /* FONT(S) */
+  --PRIMARY-FF: "Source Serif Pro', serif";
+
+  /* FONT WEIGHT(S) */
+  --REG-FW: 400;
+  --BOLD-FW: 900;
+
+  /* BORDERS */
+  --PRIMARY-BORDER-COLOR: #f8f8ff;
+  --PRIMARY-BORDER: 1px solid var(--PRIMARY-BORDER);
+  --PRIMARY-BORDER-RADIUS: 15px;
+
+  /* BUTTONS */
+  --PRIMARY-BUTTON-COLOR: #222222;
+
+  /* SHADOW(S) */
+  --PRIMARY-SHADOW-COLOR: #f8f8ff;
+  --BS: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.925),
+    0.125em 0.125em 0.125em rgba(0, 0, 0, 0.795);
+
+  --ff-primary: "Cinzel Decorative", cursive;
+  --ff-secondary: "Cinzel Decorative", cursive;
+
+  --fw-reg: 300;
+  --fw-bold: 900;
+
+  --clr-light: #fff;
+  --clr-dark: #212823;
+  --clr-accent: #008000;
+
+  --fs-h1: 4rem;
+  --fs-h2: 2.5rem;
+  --fs-h3: 1.5rem;
+  --fs-body: 1.25rem;
+
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+}
+
+/* Media / Responsiveness */
+
+@media only screen and (min-width: 610px) {
+  html {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+/* PROJECTS */
+.project__picture,
+.project__pictures,
+img {
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
