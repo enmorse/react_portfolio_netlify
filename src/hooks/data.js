@@ -4,7 +4,7 @@ const pictureList = [
     name: "Baseball (Semi - Professional Baseball)",
     author: "Ernest N Morse",
     description: "Baseball (Semi - Professional Baseball)",
-    url: "images/IMG_0913 (2).png",
+    url: "/images/IMG_0913 (2).png",
     alt: "Baseball",
   },
   {
@@ -12,7 +12,7 @@ const pictureList = [
     name: "Natural Bodybuilding / Weightlifting",
     author: "Ernest N Morse",
     description: "Natural Bodybuilding / Weightlifting",
-    url: "images/IMG_0910 (2).png",
+    url: "/images/IMG_0910 (2).png",
     alt: "Natural Bodybuilding / Weightlifting",
   },
   {
@@ -20,7 +20,7 @@ const pictureList = [
     name: "Golf (Long Drivers Of America)",
     author: "Ernest N Morse",
     description: "GOLF",
-    url: "images/IMG_0912 (3).png",
+    url: "/images/IMG_0912 (3).png",
     alt: "GOLF",
   },
   {
@@ -28,7 +28,7 @@ const pictureList = [
     name: "SCA (Society of Creative Anachronism)",
     author: "Ernest N Morse",
     description: "SCA Heavy Combat",
-    url: "images/IMG_0916 (3).png",
+    url: "/images/IMG_0916 (3).png",
     alt: "Society of Creative Anachronism",
   },
   {
@@ -36,7 +36,7 @@ const pictureList = [
     name: "AD&D / D&D (Dungeons & Dragons)",
     author: "Ernest N Morse",
     description: "AD&D / D&D",
-    url: "images/IMG_0920 (2).png",
+    url: "/images/IMG_0920 (2).png",
     alt: "Advanced D&D / D&D",
   },
   {
@@ -44,7 +44,7 @@ const pictureList = [
     name: "Web Development",
     author: "Ernest N Morse",
     description: "Web Development",
-    url: "images/IMG_0922.png",
+    url: "/images/IMG_0922.png",
     alt: "Web Development",
   },
   {
@@ -52,7 +52,7 @@ const pictureList = [
     name: "D&D / D&D Novels",
     author: "Ernest N Morse",
     description: "D&D / D&D Novels",
-    url: "images/IMG_4659-scaled (4).jpg",
+    url: "/images/IMG_4659-scaled (4).jpg",
     alt: "Forgotten Realms / Dragonlance",
   },
   {
@@ -60,7 +60,7 @@ const pictureList = [
     name: "Web Development",
     author: "Ernest N Morse",
     description: "Web Development",
-    url: "images/pexels-negative-space-169573.jpg",
+    url: "/images/pexels-negative-space-169573.jpg",
     alt: "Web Development",
   },
   {
@@ -68,7 +68,7 @@ const pictureList = [
     name: "D&D / D&D Novels",
     author: "Ernest N Morse",
     description: "D&D / D&D Novels",
-    url: "images/wdgTkhN5.jpg",
+    url: "/images/wdgTkhN5.jpg",
     alt: "Forgotten Realms / Dragonlance",
   },
 ];

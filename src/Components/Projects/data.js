@@ -4,7 +4,7 @@ const pictureList = [
     name: "Blog",
     author: "Ernest N Morse",
     description: "A blog created using ReactJS, HTML5, and CSS3",
-    url: "images/Screenshot549.png",
+    url: "/images/Screenshot549.png",
     alt: "A Blog",
   },
   {
@@ -13,7 +13,7 @@ const pictureList = [
     author: "Ernest N Morse",
     description:
       "A screenshot of some of the source code for my blog created using ReactJS, HTML5, and CSS3 without the Create React App",
-    url: "images/Screenshot548.png",
+    url: "/images/Screenshot548.png",
     alt: "A Blog",
   },
   {
@@ -21,7 +21,7 @@ const pictureList = [
     name: "To Do List",
     author: "Ernest N Morse",
     description: "A To Do List created using ReactJS, HTML5, and CSS3",
-    url: "images/Screenshot552.png",
+    url: "/images/Screenshot552.png",
     alt: "A To Do List",
   },
   {
@@ -30,7 +30,7 @@ const pictureList = [
     author: "Ernest N Morse",
     description:
       "A screenshot of some of the source code for my To Do List created using ReactJS, HTML5, and CSS3 without the Create React App",
-    url: "images/Screenshot550.png",
+    url: "/images/Screenshot550.png",
     alt: "A To Do List",
   },
 ];

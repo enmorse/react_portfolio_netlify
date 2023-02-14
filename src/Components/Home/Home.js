@@ -31,7 +31,7 @@ const Home = () => {
             Entry Level / Junior Level Front - End Dev
           </h6>
           <img
-            src="images/unnamedOne.png"
+            src="/images/unnamedOne.png"
             alt=""
             className="intro__img"
             height="350"
